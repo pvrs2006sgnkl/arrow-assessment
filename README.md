@@ -2,7 +2,7 @@
 2. Locate the folder and run composer install
 3. Run the php artisan ser --port=7000
 4. Proceed to verify the cart product price calculate via postman
-   - endpoint : 
+   - endpoint : http://127.0.0.1:8989/api/cart/total
    - method : post
    - payload: json (body param, choose raw option)
     
